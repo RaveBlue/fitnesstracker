@@ -1,0 +1,43 @@
+.routinelist {
+  color: #333;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.routineContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: fit-content;
+  gap: 10px;
+  align-items: center;
+}
+
+.singleRoutine {
+  padding: 5px;
+  border: 4px solid rbg(190, 226, 159);
+  text-align: center;
+  line-height: 4vh;
+  box-shadow: 3px grey;
+  background-color: rgb(190, 226, 159);
+  border-radius: 25px;
+}
+
+b {
+  font-size: 25px;
+}
+
+.singleDescription {
+  font-style: italic;
+}
+.singleRoutine:hover {
+  background-color: white;
+}
+
+.inputButton {
+  background-color: blue;
+  text-align: center;
+  color: white;
+  align-items: center;
+}

@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.fitnessTitle {
+  color: white;
+  text-align: center;
+  margin-left: 25px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(145, 212, 87);
+  vertical-align: middle;
+}
+.headerLinks {
+  display: grid;
+  justify-items: right;
+  grid-template-columns: 12vw 12vw 12vw 12vw 15vw;
+  background-color: rgb(145, 212, 87);
+  align-items: center;
+}
+
+a {
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(92, 171, 87);
+}
+.loginButton {
+  background-color: rgb(236, 123, 127);
+  padding: 5px;
+  margin-left: 3px;
+  border: none;
+  border-radius: 7px;
+}
+.loginButton:hover {
+  background-color: rgb(252, 253, 253);
+}
+span {
+  display: flex;
+  flex-direction: row;
+}

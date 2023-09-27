@@ -1,0 +1,51 @@
+.pageTitle {
+  color: #333;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.activityContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: fit-content;
+  gap: 10px;
+  align-items: center;
+}
+
+.singleActivity {
+  padding: 5px;
+  border: 4px solid rgb(190, 226, 159);
+  text-align: center;
+  line-height: 25px;
+  box-shadow: 5px 3px 5px grey;
+  border-radius: 25px;
+}
+
+b {
+  font-size: 25px;
+}
+
+.singleActivity {
+  background-color: rgb(190, 226, 159);
+}
+
+.singleDescription {
+  font-style: italic;
+}
+.singleActivity:hover {
+  background-color: white;
+}
+
+.inputButton {
+  background-color: blue;
+  text-align: center;
+  color: rgb(175, 226, 202);
+  align-items: center;
+  font-size: 25px;
+}
+
+.inputButton:hover {
+  background-color: lightblue;
+}
